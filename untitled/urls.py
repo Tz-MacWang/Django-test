@@ -18,5 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hello/', include('hello.urls')),
+    path('pulls/', include('pulls.urls')),      # 使用include() 函数允许引用其他URLconfs
 ]
